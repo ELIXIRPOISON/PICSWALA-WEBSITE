@@ -1,0 +1,51 @@
+/*Page Background*/
+.form-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background-color: #723ebc;
+    background-image: linear-gradient(0deg, #87dfee 0%, #ffffff 100%);
+}
+
+.category {
+    flex-wrap: wrap;
+    margin-top: 80px !important;
+}
+.category .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+}
+.category .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Cost Display Colour*/
+.category .card-price {
+    color: rgb(60, 189, 60);
+    font-weight: bold;
+    }
+.category button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.category .card-text {
+    color: rgb(90, 89, 89);
+}
+
+.category .card img:hover {
+    transform: scale(0.9);
+}
+
+.category .card-img-top {
+    height: 300px !important;
+}
